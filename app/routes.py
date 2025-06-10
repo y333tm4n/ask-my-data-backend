@@ -15,3 +15,7 @@ def ask():
     question = request.json.get("question")
     response = ask_gemini(question)
     return jsonify({"response": response})
+
+@main.route('/test', methods=['GET'])
+def test():
+    return "its working!"
