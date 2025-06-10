@@ -4,7 +4,7 @@ This backend is a Flask-based API designed to parse documents, generate embeddin
 
 ## Features
 - **File Upload & Parsing:** Supports PDF (via PyMuPDF), DOCX, and other formats (extensible).
-- **Text Embedding & Vector Store:** Uses LangChain with FAISS (or Chroma) for storing and retrieving text embeddings.
+- **Text Embedding & Vector Store:** Uses LangChain with FAISS for storing and retrieving text embeddings.
 - **LLM Integration:** Connects to Google Gemini via LangChain for question answering.
 - **CORS Enabled:** Allows cross-origin requests for frontend integration.
 
